@@ -7,15 +7,16 @@ int age;
 printf("Enter Number");
 scanf("%d", &age);
 
-if (age >18){
-	printf("Eligible");
+if (age >18 || <= 70){
+	printf("Eligible \n");
 }
 else if (age <18){
-	printf("Go Back");
+	printf("Go Back\n");
 }
 
-else if (age >70){
-	printf("Too Old");
+else (age >=70);
+{
+	printf("Too Old\n");
 }
 
 
